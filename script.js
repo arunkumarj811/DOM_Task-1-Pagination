@@ -151,9 +151,3 @@ function createPagination(totalPages, page) {
     // return liTag;
 }
 
-var obj=[];
-  fetch('https://60c98b55772a760017203c3f.mockapi.io/users')
-    .then(res => res.json())
-    .then(data => obj.push(data))
-    // .then(() => callback(obj))
- console.log(obj);
